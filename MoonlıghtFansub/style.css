@@ -161,21 +161,17 @@ a:hover {
     border-color: #ffd9e6 !important;
 }
 
-/* Kartları eşitle */
-.card {
-    height: 100%;
-}
-
-.card-img-top {
+/* Anime kartları */
+.anime-img {
+    width: 100%;
     height: 300px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
-.card-body {
+.anime-title {
     text-align: center;
-}
-
-.card-title {
+    color: white;
     font-size: 14px;
-    margin-bottom: 10px;
+    margin-top: 8px;
 }
