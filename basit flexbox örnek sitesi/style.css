@@ -5,28 +5,36 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #f5f5f5;
     margin: 20px;
+    color: #444;
 }
 
 h1 {
     color: #333;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 5px;
+    color: #555;
     margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #666;
+    margin-bottom: 8px;
 }
 
 /* Taşıyıçı (Container) ayarları */
 .tasiyici {
-    display: flex; /* Flexbox'ı açar */
+    display: flex;
     background-color: white;
-    border: 2px solid #000;
+    border: 1px solid #ccc;
     padding: 10px;
     margin-bottom: 20px;
+    border-radius: 4px;
 }
 
 /* Kutu ayarları */
@@ -36,47 +44,46 @@ h2 {
     color: white;
     font-size: 20px;
     display: flex;
-    align-items: center; /* Yazıyı kutunun ortasına getirir */
-    justify-content: center; /* Yazıyı kutunun ortasına getirir */
+    align-items: center;
+    justify-content: center;
     margin: 5px;
     font-weight: bold;
+    border-radius: 3px;
 }
 
 /* Renkler */
-.kirmizi { background-color: red; }
-.mavi { background-color: blue; }
-.yesil { background-color: green; }
-.turuncu { background-color: orange; }
-.mor { background-color: purple; }
-.sari { background-color: #ffd700; color: black; } /* Sarıda yazı siyah olsun */
-
-/* --- Flex Özellikleri --- */
+.kirmizi { background-color: #e74c3c; }
+.mavi { background-color: #3498db; }
+.yesil { background-color: #27ae60; }
+.turuncu { background-color: #e67e22; }
+.mor { background-color: #9b59b6; }
+.sari { background-color: #f1c40f; color: #333; }
 
 /* flex-direction örnekleri */
 .yan-yana {
-    flex-direction: row; /* Varsayılan, yan yana */
+    flex-direction: row;
 }
 
 .alt-alta {
-    flex-direction: column; /* Alt alta dizer */
+    flex-direction: column;
 }
 
 /* justify-content örnekleri */
 .ortala {
-    justify-content: center; /* Kutuları ortalar */
+    justify-content: center;
 }
 
 .aralari-acik {
-    justify-content: space-between; /* En baştaki ve en sondaki kenara yapışır, aralar açılır */
+    justify-content: space-between;
 }
 
 /* align-items örnekleri */
 .uzun-kutu {
-    height: 150px; /* Dikey hizalamayı görmek için yükseklik verdik */
+    height: 150px;
 }
 
 .dikey-orta {
-    align-items: center; /* Dikeyde ortalar */
+    align-items: center;
 }
 
 .footer {
