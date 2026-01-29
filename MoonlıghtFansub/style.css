@@ -160,3 +160,13 @@ a:hover {
 .border-warning {
     border-color: #ffd9e6 !important;
 }
+
+/* Kartları eşitle */
+.card {
+    height: 100%;
+}
+
+.card-img-top {
+    height: 250px;
+    object-fit: cover;
+}
