@@ -1,0 +1,162 @@
+/* Genel Ayarlar */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('https://i.redd.it/7h2qw1jl51b81.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e0e0ff;
+    /* Hafif mavimsi beyaz */
+}
+
+/* Başlıklar ve Linkler için Renkler */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #b3e5fc;
+    /* Açık mavi (Moonlight) */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    /* Okunabilirlik için gölge */
+}
+
+a {
+    color: #81d4fa;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #4fc3f7;
+    text-shadow: 0 0 5px #4fc3f7;
+}
+
+/* Navbar Logosu - Neon Efekti */
+.navbar-brand {
+    letter-spacing: 2px;
+    color: #fff !important;
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #9400d3,
+        0 0 30px #9400d3,
+        0 0 40px #9400d3,
+        0 0 55px #9400d3,
+        0 0 75px #9400d3;
+    transition: text-shadow 0.3s ease-in-out;
+}
+
+.navbar-brand:hover {
+    text-shadow:
+        0 0 5px #fff,
+        0 0 10px #fff,
+        0 0 20px #00bfff,
+        0 0 30px #00bfff,
+        0 0 40px #00bfff,
+        0 0 55px #00bfff,
+        0 0 75px #00bfff;
+}
+
+/* Kartlardaki Resim Efekti (Custom CSS) */
+.anime-poster {
+    overflow: hidden;
+    /* Taşmayı engelle */
+    cursor: pointer;
+    height: 450px;
+    /* Sabit yükseklik */
+    border-radius: 5px;
+    background-color: #222;
+    /* Yüklenirken veya boşluk kalırsa */
+}
+
+.anime-poster img {
+    transition: transform 0.4s ease;
+    /* Yumuşak büyüme efekti */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Resmi kutuya sığdır, taşanı kes */
+}
+
+/* Hover Efekti: Mouse gelince resim büyüsün */
+.anime-poster:hover img {
+    transform: scale(1.1);
+}
+
+/* Resim üzerindeki Overlay (Karanlık Katman) */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    /* Başta görünmez */
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.7);
+    /* Yarı saydam siyah */
+    border-radius: 5px;
+}
+
+/* Mouse gelince overlay görünsün */
+.anime-poster:hover .overlay {
+    opacity: 1;
+}
+
+/* Yukarı Çık Butonu */
+#btn-back-to-top {
+    z-index: 99;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    padding: 0;
+    display: flex;
+    /* Flexbox kullanımı */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Sarı Renkleri Pembeye Dönüştürme Ouerides */
+.text-warning {
+    color: #ffd9e6 !important;
+    /* Beyaza yakın pembe */
+    text-shadow: 0 0 5px rgba(255, 182, 193, 0.5);
+    /* Hafif pembe parlama */
+}
+
+.btn-warning {
+    background-color: #ffd9e6 !important;
+    border-color: #ffd9e6 !important;
+    color: #333 !important;
+    /* Okunabilirlik için koyu yazı */
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.4);
+}
+
+.btn-warning:hover {
+    background-color: #ffb6c1 !important;
+    /* Hover'da biraz daha koyu pembe */
+    border-color: #ffb6c1 !important;
+    color: #000 !important;
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.8);
+}
+
+.btn-outline-warning {
+    color: #ffd9e6 !important;
+    border-color: #ffd9e6 !important;
+}
+
+.btn-outline-warning:hover {
+    background-color: #ffd9e6 !important;
+    color: #333 !important;
+    box-shadow: 0 0 10px rgba(255, 182, 193, 0.6);
+}
+
+.border-warning {
+    border-color: #ffd9e6 !important;
+}

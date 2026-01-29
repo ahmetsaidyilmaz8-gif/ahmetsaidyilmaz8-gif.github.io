@@ -1,0 +1,44 @@
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    display: flex;              
+    justify-content: center;   
+}
+
+.menu li {
+    margin: 10px;
+    padding:0px ;
+}
+
+.menu li a {
+    display: block;
+    width: 150px;
+    padding: 15px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(16, 16, 17);
+    border: 5px solid #f20404;
+}
+
+.menu li a:hover {
+    background-color: #080808;
+    color: white;
+}
+
+.h1 {
+    color:darkred;
+    text-decoration-line: underline;
+    text-decoration-color: darkred;    
+}
+
+.p {
+    
+    color: goldenrod;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: large;
+    
+}
+ 

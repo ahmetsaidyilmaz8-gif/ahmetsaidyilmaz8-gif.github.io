@@ -1,0 +1,184 @@
+
+body {
+    background-color: rgb(84, 5, 111);
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+.ust-bar {
+    display: flex;
+    align-items: center;
+    padding: 15px 40px; 
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+
+.dunya img {
+    height: 250px;
+    display: block;
+}
+
+.çeviriadı img {
+    height: 100px;
+    margin-left: -30px; 
+}
+
+
+.sayfalar {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-left: auto;  
+    margin-right: auto; 
+    
+    
+    gap: 50px; 
+}
+
+.sayfalar li {
+    margin: 0; 
+}
+
+.sayfalar li a {
+    color: rgb(0, 1, 4);
+    padding: 15px 25px; 
+    background-color: #FFD700;
+    display: inline-block;
+    text-decoration: none;
+    border: 3px solid black;
+    border-radius: 12px; 
+    font-size: 18px; 
+    font-weight: bold;
+    white-space: nowrap;  
+}
+
+.sayfalar li a:hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+
+.jojoefekt {
+    margin-left: auto; 
+}
+
+.jojoefekt img {
+    height: 250px;
+    display: block;
+}
+
+p {
+    color: aliceblue;
+    font-size: 23pt;
+    line-height: 1.5;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1 {
+    color: #FFD700;
+    padding-left: 40px;
+    text-decoration: underline;
+    font-style: italic;
+    font-family: initial;
+}
+
+.hg {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;    
+    justify-content: center;
+    text-align: center;
+    margin: 5px auto;     
+    padding: 30px;
+    width: 60%;
+    font-size: 50px;
+}
+
+.karakter-listesi {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.kart {
+    background-color: rgba(255, 215, 0, 0.2);
+    border: 2px solid #FFD700;
+    padding: 20px;
+    border-radius: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.ana-konteyner p {
+    line-height: 1.8; 
+    text-align: justify; 
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.jjba{
+    font-size: 18pt;
+}
+
+.partlar{
+    font-size: 50;
+}
+
+.yukari-cik {
+    color: #FFD700; 
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Bangers', cursive; 
+    border: 2px solid #FFD700;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+.yukari-cik:hover {
+    background-color: #FFD700;
+    color: rgb(84, 5, 111); 
+}
+
+.rehberbaşlık {
+font-size: 20pt;
+}
+
+.avem {
+    text-decoration: none;
+}
+
+ul li::marker {
+    color: #FFD700;       /* Noktaları Altın Sarısı yapar */
+    font-size: 2.4rem; }
+
+    ul {
+    margin-left: 40px;    /* Noktaların soldan içeri girmesini sağlar */
+    padding-left: 10px;   /* Yazı ile nokta arasını açar */
+}
+
+ul li {
+    margin-bottom: 12px;  /* Maddeler arası boşluk */
+    color: white;         /* Yazı rengi beyaz kalsın */
+}
+
+ol li::marker {
+    color: #FFD700;       /* Noktaları Altın Sarısı yapar */
+    font-size: 2.4rem; }
+
+    ol {
+    margin-left: 40px;    /* Noktaların soldan içeri girmesini sağlar */
+    padding-left: 10px;   /* Yazı ile nokta arasını açar */
+}
+
+ol li {
+    margin-bottom: 12px;  /* Maddeler arası boşluk */
+    color: white;         /* Yazı rengi beyaz kalsın */
+}
