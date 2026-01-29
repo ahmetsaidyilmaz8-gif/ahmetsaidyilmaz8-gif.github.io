@@ -167,6 +167,15 @@ a:hover {
 }
 
 .card-img-top {
-    height: 250px;
+    height: 300px;
     object-fit: cover;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-title {
+    font-size: 14px;
+    margin-bottom: 10px;
 }
